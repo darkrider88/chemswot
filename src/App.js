@@ -21,10 +21,10 @@ function Header() {
         </p>
       </div>
       <div className="app__header__right">
-        <a>Home</a>
-        <a>Resources</a>
-        <a>About</a>
-        <a>Contact</a>
+        <a href="/">Home</a>
+        <a href="/">Resources</a>
+        <a href="/">About</a>
+        <a href="/">Contact</a>
       </div>
     </header>
   );
