@@ -34,6 +34,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+.app__header__right > a {
+  text-decoration: none;
+  color: black;
+}
 .app__header__right > a:hover {
   cursor: pointer;
   color: tomato;
@@ -95,6 +100,8 @@
 /* Features section */
 .features {
   height: 100vh;
+  background: url("./images/purple.jpg") no-repeat;
+  background-size: cover;
   font-family: "Questrial", sans-serif;
   padding: 0 5vw;
   display: flex;
@@ -160,6 +167,9 @@
 
 .offer {
   height: 100vh;
+  background: url("./images/1.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
