@@ -13,7 +13,7 @@ function Offer() {
           </div>
 
           <div className="center_side">
-            <img src={atom} />
+            <img alt="" src={atom} />
           </div>
 
           <div className="left_side">

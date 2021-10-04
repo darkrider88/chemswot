@@ -56,20 +56,4 @@ function Welcome() {
   );
 }
 
-function Offers() {
-  return (
-    <div className="welcome">
-      <p className="welcome__h1">Welcome to IB Chemistry</p>
-      <p className="welcome__h2">
-        Structured Complete Course
-        <br />
-        In Ib Chemistry
-      </p>
-      <p className="welcome__h3">
-        Learn from the best having 20+ Years experience
-      </p>
-      <button className="welcome__button">Buy Now</button>
-    </div>
-  );
-}
 export default App;
