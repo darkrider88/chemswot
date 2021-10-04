@@ -100,7 +100,7 @@
 /* Features section */
 .features {
   height: 100vh;
-  background: url("./images/purple.jpg") no-repeat;
+  background: url("./images/purple.png") no-repeat;
   background-size: cover;
   font-family: "Questrial", sans-serif;
   padding: 0 5vw;
@@ -142,7 +142,7 @@
   align-items: center;
 }
 .card:hover {
-  background-color: rgb(221, 217, 217);
+  background-color: rgba(221, 217, 217, 0.637);
   border-radius: 20px;
   border-top: 5px solid tomato;
 }
@@ -167,7 +167,7 @@
 
 .offer {
   height: 100vh;
-  background: url("./images/1.jpg") no-repeat;
+  background: url("./images/1.png") no-repeat;
   background-size: contain;
   background-position: center;
   display: flex;
